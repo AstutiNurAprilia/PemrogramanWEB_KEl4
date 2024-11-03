@@ -1,0 +1,59 @@
+.header1 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: #1f2937;
+  }
+  
+  .header1 .text-sm {
+    font-size: 0.875rem;
+    color: #9ca3af;
+  }
+  
+  .navbar1 {
+    display: flex;
+    justify-content: center;
+    background-color: #111827;
+    padding: 0.75rem 0;
+  }
+  
+  .navbar1 a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar1 a:hover {
+    color: #3b82f6;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .contact p {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact i {
+    margin-right: 8px;
+  }
+  
+  .social-icons a {
+    color: white;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    background-color: #3b82f6;
+    color: white;
+  }
+  
