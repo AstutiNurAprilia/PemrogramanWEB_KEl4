@@ -1,25 +1,31 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #8faadc;
+  background-image: url(https://webutama.utb-univ.ac.id/storage/uploads/images/409440950_3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(8, 8, 8, 0.966);
+  font-family: Arial, sans-serif;
 }
 
 .header {
-  background-color: rgba(46, 44, 44, 0.589);
+  background-color: rgba(46, 44, 44, 0.231);
   padding: 10px;
   text-align: center;
   color: white;
   font-size: 30px;
   font-weight: bold;
-  margin-left: 140px;
-  margin-right: 140px;
   margin-top: 10px;
+  margin-left: 105px;
+  margin-right: 105px;
   border-radius: 10px 10px;
 }
-.navbar {
+.nav {
   display: flexbox;
   justify-content: center;
-  margin-left: 140px;
-  margin-right: 140px;
+  margin-left: 105px;
+  margin-right: 105px;
   border-radius: 10px 10px;
   text-align: center;
   background-color: #ff0000;
@@ -27,13 +33,13 @@ body {
 }
 
 .nav a {
-  color: white;
-  margin: 0 15px;
+  color: #ffffff;
+  padding: 14px 20px;
   text-decoration: none;
-  font-weight: bold;
+  text-align: center;
 }
 
-.navbar a:hover {
+.nav a:hover {
   background-color: #dd0000;
 }
 
